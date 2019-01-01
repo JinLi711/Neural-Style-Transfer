@@ -10,15 +10,15 @@ Check out Context.txt
 
 Base Image:
 
-<img src="https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg" alt="Cat" width="400" height="400">
+<img src="https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg" alt="Cat" width="300" height="300">
 
 Style: 
 
-<img src="https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/style/trippy.jpg" alt="Style" width="400" height="400">
+<img src="https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/style/trippy.jpg" alt="Style" width="300" height="300">
 
 Generated Image:
 
-<img src="https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/generated/cat_trippy_at_iteration_4.png" alt="Generated Image" width="400" height="400">
+<img src="https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/generated/cat_trippy_at_iteration_4.png" alt="Generated Image" width="300" height="300">
 
 ## Things To Work On
 
