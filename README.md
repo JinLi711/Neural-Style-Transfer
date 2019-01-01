@@ -8,7 +8,7 @@ Check out Context.txt
 
 ## Example
 
-![alt text] https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg
+![alt text](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg)
 
 ## Things To Work On
 
