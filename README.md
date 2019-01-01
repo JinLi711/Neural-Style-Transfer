@@ -9,7 +9,7 @@ Check out Context.txt
 ## Example
 
 Base Image:
-![Cat](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg)
+![Cat](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg | width=48)
 
 Style: 
 ![Trippy](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/style/trippy.jpg)
