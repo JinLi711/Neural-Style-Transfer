@@ -1,0 +1,54 @@
+=========
+Objective
+=========
+
+Perform neural style transfer to generate an image to incorporate the style of another image.
+
+
+==========
+Background
+==========
+
+We start with two images: the target image and the style image. 
+We want to create an image to preserve the content of the target image, while incorporating the style of the style image.
+
+Style: refers to colors, patterns, and textures of a picture.
+Content: coherent structures of a picture.
+
+Note that we can mathematically define each since we can "decompose" an image into its filters and layers (using pretrained ConvNet VGG19), which are represented by activation functions.
+
+In an image, higher layers map to more global and abstract aspects of that image, so it makes sense to compare an upper layer to measure the divergence in content between the generated image and the target image.
+
+For style, we want to compare multiple lower layers. We want to preserve similar internal correlations between the style image and the generated image.
+
+
+========
+Training
+========
+
+1. Decompose the target and the style images into its filters, and create a generated image. 
+2. Calculate the loss between the content of the target image and the content of the generated image. We do this by finding the l2 norm between the upper layer in the two images 
+3. Calculate the loss between the style of the style image and the style of the generated image. We do this by computing the sum of L2 norm between the Gram matrices of the representations of the target image and the style image.
+4. Calculate total variational loss to make the generated picture less pixelated.
+5. Add the losses.
+6. Set up gradient descent to mimimize loss.
+
+=======
+Content
+=======
+
+Target images where we want to preserve the content.
+Style images where we want to incorporate the style into the target image to produce the generate image.
+
+========
+Problems
+========
+
+The training process is pretty slow (about 7 minutes for one iteration), but on the bright side, even after one iteration we get pretty good results.
+However, tuning the weights for the loss function may end up taking a long time.
+
+================
+Acknowledgements
+================
+
+https://github.com/keras-team/keras
