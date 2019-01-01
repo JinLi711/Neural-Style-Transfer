@@ -8,7 +8,11 @@ Check out Context.txt
 
 ## Example
 
-![alt text](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg)
+Base Image:
+![Cat](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg)
+
+Style: 
+![Trippy](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/style/trippy.jpg)
 
 ## Things To Work On
 
