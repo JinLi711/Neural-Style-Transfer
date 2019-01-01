@@ -9,12 +9,10 @@ Check out Context.txt
 ## Example
 
 Base Image:
-![Cat](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg | width=48)
-
 <img src="https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/target/cat.jpg" alt="Cat" width="200" height="200">
 
 Style: 
-![Trippy](https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/style/trippy.jpg)
+<img src="https://github.com/JinLi711/Neural-Style-Transfer/blob/master/images/style/trippy.jpg" alt="Cat" width="200" height="200">
 
 ## Things To Work On
 
